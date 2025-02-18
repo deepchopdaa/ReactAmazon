@@ -1,0 +1,12 @@
+.card{
+    float: left;
+    display: flex;
+    justify-content: center;
+    /* border: 2px rgb(122, 122, 122) solid; */
+    margin: 20px;
+
+}
+
+.block{
+    margin: 15px;
+}

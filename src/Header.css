@@ -1,0 +1,125 @@
+.header{
+    height: 60px;
+    background-color: #131921;
+    color: rgb(221, 221, 221);
+    display: flex;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.header-left{
+    display: flex;
+    width: 25vw;
+}
+.amazonlogo{
+    height:90%;
+    width: 10rem ;
+}
+.address{   
+    font-size:0.8rem;
+    padding-top: 0.3rem;
+    color:rgb(165, 163, 163);
+}
+.Location-icon{
+    height: 0.8rem;
+    align-items: center;
+}
+.Update{
+    font: bold;
+    color:rgb(221, 221, 221) ;
+    text-align: left;
+    font-size: 0.9rem;
+}
+.header-serch {
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer ;
+    padding: auto;
+}
+
+.select{
+    height: 45px;
+    width: 4vw;
+    display: flex;
+    justify-content: center;  
+    border-top-left-radius:20% ;
+    border-bottom-left-radius: 20%;
+    align-items:left;
+}
+
+.inputtag{
+    height: 45px;
+    width: 52vw;
+    display: flex;
+    justify-content: center;
+    align-items:left;
+}
+
+.serch_icon{
+    height: 45px;
+    width: 4vw;
+    border-top-right-radius:20%;
+    border-bottom-right-radius:20%;
+    background-color: orange;
+}
+
+svg {
+    vertical-align: middle;
+    font-size: xxx-large !important;
+    align-items: center;
+    text-align: center;
+}
+.icon{
+    font-size: 20px;
+    color: #000000;
+}
+
+.header-right{
+    width: 25vw;
+    display: flex;
+    justify-content:flex-start;
+}
+
+.language{
+    height: 5px;
+    padding: 15px;
+    padding-top: 25px;
+    width: 5vw;
+}
+
+.dropdown{
+    float: left;
+    font-size: small;
+    padding-bottom: 20px;
+    padding-left:0px !important;
+}
+.detail{
+    height: 50px;
+    width: 6vw;
+    padding-top:10px ;
+}
+.singin{
+    font-size:0.7rem;
+    padding-top: 0.3rem;
+    color:rgb(238, 238, 238);
+}
+
+.account{
+    font-size: 0.8rem;
+    color:rgb(255, 255, 255);
+}
+
+.return{
+    font-size:0.8rem;
+
+    color:rgb(255, 255, 255);
+}
+
+.order{
+    font-size: 1rem;
+    color:rgb(255, 255, 255);
+}
+
+

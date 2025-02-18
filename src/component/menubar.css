@@ -1,0 +1,23 @@
+.menubar{
+    background-color: #27323f;
+    color:aliceblue ;
+    height: 50px;
+    width: 100vw;
+    overflow-x: scroll;
+}
+
+.menubar div{
+    margin-right: 25px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+
+.icon1{
+    font-size: larger !important ;
+    color: aliceblue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
