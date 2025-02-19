@@ -13,15 +13,16 @@ const Header = () => {
       <div className='header'>
         <div className='header-left'>
           <img className='amazonlogo' src={Amazonlogo} alt="Image not Found" />
-        
-          <div className='Location-icon'><LocationOnIcon style={{
-            paddingTop: "20px",
-            height: "3rem",
-            alignitems: "center"
-          }} /></div>
-          <div>
-            <div className='address'>Delivering to surat</div>
-            <div className='Update'>Update Location</div>
+          <div className='header-loc'>
+
+            <div className='Location-icon'><LocationOnIcon className='headerloc'  style={{
+              fontSize:"medium !important",
+              paddingTop:"20px" 
+            }} /></div>
+            <div className='text-data'>
+              <div className='address'>Delivering to surat</div>
+              <div className='Update'>Update Location</div>
+            </div>
           </div>
         </div>
         <div className='header-serch'>
@@ -43,21 +44,21 @@ const Header = () => {
 
         <div className='header-right'>
           <div className='language d-flex'>
-            <img src={India} alt='INDIA Image' className='flag' height={"20px"} width={"25px"} /><span>EN</span><ArrowDropDownIcon className='dropdown' />
+            <img src={India} alt='INDIA Image' className='flag'  /><span>EN</span><ArrowDropDownIcon className='dropdown' />
           </div>
           <div className='detail'>
             <div className='singin'>Hello, sign in</div>
             <div className='account'>Account & List</div>
-          </div>  
+          </div>
           <div className='detail'>
             <div className='return'>Return &</div>
             <div className='order'>Orders</div>
-          </div>  
+          </div>
           <div className='detail'>
-            <div className='return'><ShoppingCartIcon/>Cart</div>
-          </div>  
-        </div>  
-      </div>    
+            <div className='return'><ShoppingCartIcon className='carticon' />Cart</div>
+          </div>
+        </div>
+      </div>
     </>
   )
 }

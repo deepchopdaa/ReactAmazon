@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import Boat from "../images/Boult_3000x1200-PC._CB543542644_.jpg"
 import Boat1 from "../images/PC_hero_1_2x_1._CB582889946_.jpg"
-import "./style.css"
+
 function IndividualIntervalsExample() {
   return (
     <Carousel>

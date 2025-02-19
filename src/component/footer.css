@@ -1,0 +1,122 @@
+.footer{
+    width: 100%;
+    padding: 0%;
+}
+.backtotop{
+    height: 60px;
+    background-color: #37475a;
+    align-items: center;
+    padding: 10px;
+}
+
+.content{
+    align-items: center;
+    color: aliceblue;
+    font-size: larger;
+}
+
+.footer-detail{
+    background-color: #232f3e;
+    width: 100%;
+    border-bottom: 1px rgb(63, 77, 95) solid;
+}
+
+.fdata{
+    margin: auto;
+    max-width: 1000px;
+    background-color: #232f3e;
+    display: table; 
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.first{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.Fheader{
+    font-size: large;
+    text-align: left;
+    font-weight: bold;
+}
+
+.flist{
+    list-style: none;
+    text-align: left;
+    padding-left: 0px;
+    color: rgb(215, 216, 218) ;
+    font-size: small;
+}
+
+
+.middle{
+    background-color: #232f3e;
+    color: aliceblue;
+    min-height: 80px;
+}
+.main{
+    max-width: 1000px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;  
+    margin: auto;
+}
+.submain{
+    margin: auto;
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+}
+.flogo{
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 25px;
+}
+
+.flanguage{
+    padding: 5px 10px 5px 10px;
+    border: 2px rgb(63, 77, 95) solid;
+}
+
+.lanicon{
+    font-size: large !important;
+    padding: 1px;
+}
+.fcountry{
+    padding: 5px 20px 5px 10px;
+    margin-left: 20px;
+    border: 2px rgb(63, 77, 95) solid;
+}
+
+.fservice{
+    background-color:#131A22;
+    width: 100%;
+    border-bottom: 1px rgb(63, 77, 95) solid;
+}
+
+.mainservice{
+    color: rgb(109, 121, 131);
+    font-size: small;
+    margin: auto;
+    max-width: 1000px;
+    background-color: #131A22;
+    padding-top: 50px;
+    display: table; 
+}
+.mainservice h6{
+    color: rgb(235, 235, 235);
+}
+.mainservice li{
+    list-style: none;
+}
+.flast{
+    color: rgb(209, 209, 209);
+    margin: auto;
+}
+.flast li{
+    list-style: none;
+    display: inline-block;
+    margin-right:10px ;
+}
